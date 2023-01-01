@@ -14,7 +14,7 @@ import zerobase.weather.domain.Memo;
 import zerobase.weather.repository.JdbcMemoRepository;
 
 @SpringBootTest
-//@Transactional
+@Transactional
 public class JdbcMemoRepositoryTest {
 
   @Autowired
